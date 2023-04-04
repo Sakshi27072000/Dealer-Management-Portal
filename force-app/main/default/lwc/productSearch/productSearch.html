@@ -1,0 +1,11 @@
+<template>
+    <template if:true={showLoading}>
+        <lightning-spinner alternative-text="Loading" size="medium" class="spinnerClass">
+        </lightning-spinner>
+    </template>
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12" class="slds-var-p-bottom_small">
+            <c-product-List products={wiredProducts}></c-product-List>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

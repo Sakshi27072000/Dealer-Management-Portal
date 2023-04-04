@@ -1,0 +1,10 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+	<lightning:listView aura:id="listViewAccounts"
+    objectApiName="Invoice__c"
+    listName="My_Invoices"
+    showSearchBar="false"
+    showActionBar="false"
+    enableInlineEdit="false"
+    showRowLevelActions="false"
+/>
+</aura:component>
